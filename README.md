@@ -87,26 +87,26 @@ data-to-decision/
 
 3. **Bias Analysis**
 
-      * Compute fairness metrics and generate plots:
+   * Compute fairness metrics and generate plots:
 
-      ```bash
-       cd bias
-      ```
+     ```bash
+     cd bias
+     ```
 
-      Then run:
+   * Then run:
 
-      ```bash
-       python metrics_race.py
-       python race_plots.py
-       python metrics_sex.py
-       python sex_plots.py
-      ```
+     ```bash
+     python metrics_race.py
+     python race_plots.py
+     python metrics_sex.py
+     python sex_plots.py
+     ```
 
-      When finished, return to the root:
+   * When finished, return to the root:
 
-      ```bash
-       cd ..
-      ```
+     ```bash
+     cd ..
+     ```
 
 
 ---
